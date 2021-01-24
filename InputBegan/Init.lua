@@ -11,7 +11,7 @@ local function require(Asset)
 		if (Success) then
 			return Return
 		else
-			error("[TextChanged] (" .. Asset .. ")\n" .. Return)
+			error("[InputBegan] (" .. Asset .. ")\n" .. Return)
 		end
 	end
 end
