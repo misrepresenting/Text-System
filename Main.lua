@@ -36,7 +36,7 @@ function Module:Init(TextBox, LineCounter)
 		InputBegan(Input, TextBox)
 	end)
 	TextBox:GetPropertyChangedSignal("Text"):Connect(function()
-		TextChanged(TextBox, LineCounter)
+		TextChanged(TextBox)
 	end)
 end
 
