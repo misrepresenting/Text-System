@@ -8,7 +8,7 @@ local UserInputService = game:GetService("UserInputService");
 -- functions
 local function Main(TextBox)
 	local Text = TextBox.Text;
-	local LineCounter = TextBox.Parent;
+	local LineCounter = TextBox.LineCounter;
 	
 	local LineCount = #string.split(Text, "\n");
 	local LineCountString = "";
