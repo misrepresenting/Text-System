@@ -22,8 +22,8 @@ local Tabbing = require("Tabbing");
 local SyntaxHighlighting = require("SyntaxHighlighting");
 
 -- functions
-local function Init(TextBox, LineCounter)
-	LineCount(TextBox, LineCounter);
+local function Init(TextBox)
+	LineCount(TextBox);
 	Tabbing(TextBox);
 	SyntaxHighlighting(TextBox);
 end
