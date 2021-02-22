@@ -9,7 +9,7 @@ local TextService = game:GetService("TextService");
 local RunService = game:GetService("RunService");
 local UserInputService = game:GetService("UserInputService");
 
-local KeyWords = {"and","break","do","else","elseif","end","false","for","function","goto","if","in","local","nil","not","or","repeat","return","then","true","until","while"};
+local KeyWords = {"and","break","do","else","elseif","end","false","for","function","goto","if","in","local","nil","not","or","repeat","return","then","true","until","while","continue"};
 local GlobalEnv = {"Axes","BrickColor","CFrame","Color3","ColorSequence","ColorSequenceKeypoint","Enum","Faces","Instance","LoadLibrary","NumberRange","NumberSequence","NumberSequenceKeypoint","PhysicalProperties","Ray","Rect","Region3","Region3int16","UDim","UDim2","UserSettings","Vector2","Vector2int16","Vector3","Vector3int16","_G","_VERSION","assert","collectgarbage","coroutine","debug","delay","elapsedTime","error","game","gcinfo","getfenv","getmetatable","getrawmetatable","ipairs","loadstring","math","newproxy","next","os","pairs","pcall","print","rawequal","rawget","rawset","require","script","select","setfenv","setmetatable","settings","shared","spawn","stats","string","table","tick","time","tonumber","tostring","type","typeof","unpack","version","wait","warn","workspace","xpcall","ypcall"};
 
 -- functions
